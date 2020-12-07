@@ -20,3 +20,27 @@ img.santamaria{
     float: left;
 
 }
+/* h1 */
+h1.iglesias{
+    background-color: hsla(102, 27%, 34%, 0.822);
+    color: white;
+    font-weight: bolder;
+}
+
+/* span */
+
+span.resaltar{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Segunda imagen centrada */
+
+p.santacroce{
+    text-align: center;
+}
+
+/* Tercera imagen derecha */
+img.santamarianovella{
+    float: right;
+}
