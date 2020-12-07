@@ -18,10 +18,13 @@ body{
 /* primera imagen a la izquierda */
 img.santamaria{
     float: left;
+    width: 200;
+    height: 200;
+    
 
 }
-/* h1 */
-h1.iglesias{
+/* h2 */
+h2.iglesias{
     background-color: hsla(102, 27%, 34%, 0.822);
     color: white;
     font-weight: bolder;
@@ -37,10 +40,20 @@ span.resaltar{
 /* Segunda imagen centrada */
 
 p.santacroce{
-    text-align: center;
+    text-align: center;  
+    width: 200;
+    height: 200;
 }
 
 /* Tercera imagen derecha */
 img.santamarianovella{
     float: right;
+    width: 200;
+    height: 200;
+}
+
+/* impedir que se monten los parrafos  */
+
+p.montar{
+    clear: both;
 }
